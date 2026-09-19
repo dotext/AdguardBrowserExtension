@@ -22,7 +22,7 @@ body:
     attributes:
       label: AdGuard Extension version
       description: What version of our extension are you running?
-      placeholder: For example, 5.0.1 beta
+      placeholder: For example, 5.5.2.3
     validations:
       required: true
   - type: input
@@ -30,7 +30,7 @@ body:
     attributes:
       label: Browser version
       description: What browser do you use?
-      placeholder: For example, Chrome 125
+      placeholder: For example, Chrome 153
     validations:
       required: true
   - type: input
@@ -38,7 +38,7 @@ body:
     attributes:
       label: OS version
       description: What operating system do you use?
-      placeholder: For example, macOS 14.5
+      placeholder: For example, macOS 27.0
     validations:
       required: true
   - type: markdown
@@ -70,6 +70,7 @@ body:
       multiple: true
       options:
         - AdGuard Tracking Protection filter
+        - AdGuard Mail Tracking Protection filter
         - AdGuard URL Tracking filter
     validations:
       required: false
@@ -141,15 +142,15 @@ body:
         - Adblock List for Finland
         - AdBlockID
         - Bulgarian list
-        - Dandelion Sprout's Nordic Filters
-        - Dandelion Sprout's Serbo-Croatian List
+        - Dandelion Sprout’s Nordic Filters
+        - Dandelion Sprout’s Serbo-Croatian List
         - EasyList Czech and Slovak
         - EasyList Hebrew
         - EasyList Italy
         - EasyList Lithuania
         - EasyList Thailand
         - Estonian List
-        - Frellwit's Swedish Filter
+        - Frellwit’s Swedish Filter
         - Hungarian filter
         - IndianList
         - Latvian List
@@ -211,14 +212,14 @@ body:
     attributes:
       label: Screenshots
       description: |
-        If applicable add screenshots explaining your problem.
+        If applicable, add screenshots explaining your problem.
         You can drag and drop images or paste them from clipboard.
         Use `<details> </details>` tag to hide screenshots under the spoiler.
-      placeholder: If applicable add screenshots explaining your problem.
+      placeholder: If applicable, add screenshots explaining your problem.
       value: |
           <details><summary>Screenshot 1</summary>
+          <!-- Paste screenshot below. -->
 
-          <!-- paste your screenshot here -->
 
           </details>
     validations:
