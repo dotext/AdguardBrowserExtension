@@ -22,7 +22,7 @@ body:
     attributes:
       label: AdGuard Extension version
       description: What version of our extension are you running?
-      placeholder: For example, 4.3.46 beta
+      placeholder: For example, 5.5.2.3
     validations:
       required: true
   - type: input
@@ -38,7 +38,7 @@ body:
     attributes:
       label: OS version
       description: What operating system do you use?
-      placeholder: For example, macOS 14.5
+      placeholder: For example, macOS 27.0
     validations:
       required: true
   - type: markdown
@@ -50,7 +50,7 @@ body:
       value: |
         Select enabled filters if they are related to the application bug.
         If the issue is related to the filtering (missed ads, cookie, etc.)
-        use the [Web Reporting Tool](https://kb.adguard.com/technical-support/reporting-tool) please.
+        use the [Web Reporting Tool](https://link.adtidy.org/forward.html?action=report&app=home&from=github) please.
 
   - type: dropdown
     id: filters_adblock
@@ -71,12 +71,13 @@ body:
       multiple: true
       options:
         - AdGuard Tracking Protection filter
+        - AdGuard Mail Tracking Protection filter
         - AdGuard URL Tracking filter
         - EasyPrivacy
         - Legitimate URL Shortener
-        - Peter Lowe's Blocklist
-        - Fanboy's Anti-Facebook List
-        - Fanboy's Anti-thirdparty Fonts
+        - Peter Lowe’s Blocklist
+        - Fanboy’s Anti-Facebook List
+        - Fanboy’s Anti-thirdparty Fonts
     validations:
       required: false
 
@@ -87,7 +88,7 @@ body:
       multiple: true
       options:
         - AdGuard Social Media filter
-        - Fanboy's Social Blocking List
+        - Fanboy’s Social Blocking List
     validations:
       required: false
 
@@ -104,9 +105,9 @@ body:
         - AdGuard Other Annoyances filter
         - AdGuard Widgets filter
         - Adblock Warning Removal List
-        - Fanboy's Annoyances
+        - Fanboy’s Annoyances
         - EasyList Cookie List
-        - Dandelion Sprout's Annoyances List
+        - Dandelion Sprout’s Annoyances List
     validations:
       required: false
 
@@ -131,7 +132,7 @@ body:
       multiple: true
       options:
         - Filter unblocking search ads and self-promotion
-        - Fanboy's Anti-thirdparty Fonts
+        - Fanboy’s Anti-thirdparty Fonts
         - AdGuard DNS filter
         - AdGuard Experimental filter
     validations:
@@ -157,9 +158,9 @@ body:
         - Adblock List for Finland
         - AdBlockID
         - Bulgarian list
-        - CJX's Annoyances List
-        - Dandelion Sprout's Nordic Filters
-        - Dandelion Sprout's Serbo-Croatian List
+        - CJX’s Annoyances List
+        - Dandelion Sprout’s Nordic Filters
+        - Dandelion Sprout’s Serbo-Croatian List
         - EasyList China
         - EasyList Czech and Slovak
         - EasyList Dutch
@@ -172,7 +173,7 @@ body:
         - EasyList Spanish
         - EasyList Thailand
         - Estonian List
-        - Frellwit's Swedish Filter
+        - Frellwit’s Swedish Filter
         - Greek AdBlock Filter
         - Hungarian filter
         - Icelandic ABP List
@@ -257,8 +258,8 @@ body:
       placeholder: If applicable add screenshots explaining your problem.
       value: |
           <details><summary>Screenshot 1</summary>
-
-          <!-- paste your screenshot here -->
+          <!-- Paste screenshot below. -->
+          
 
           </details>
     validations:
