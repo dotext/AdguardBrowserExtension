@@ -20,8 +20,8 @@ body:
   - type: input
     id: app_version
     attributes:
-      label: AdGuard Extension version
-      description: What version of our extension are you running?
+      label: AdGuard version
+      description: What version of AdGuard Browser Extension are you running?
       placeholder: For example, 5.5.2.3
     validations:
       required: true
@@ -29,7 +29,7 @@ body:
     id: br_version
     attributes:
       label: Browser version
-      description: What browser do you use?
+      description: What browser do you use, and what version are you running?
       placeholder: For example, Chrome 153
     validations:
       required: true
@@ -37,8 +37,8 @@ body:
     id: os_version
     attributes:
       label: OS version
-      description: What operating system do you use?
-      placeholder: For example, macOS 27.0
+      description: What operating system do you use, and what version are you running?
+      placeholder: For example, macOS Golden Gate 27.2 or Windows 11 25H2 (Build 26200)​​
     validations:
       required: true
   - type: markdown
