@@ -50,7 +50,7 @@ body:
       value: |
         Select enabled filters if they are related to the application bug.
         If the issue is related to the filtering (missed ads, cookie, etc.)
-        use the [Web Reporting Tool](https://link.adtidy.org/forward.html?action=report&app=home&from=github) please.
+        please use the [Web Reporting Tool](https://link.adtidy.org/forward.html?action=report&app=home&from=github).
 
   - type: dropdown
     id: filters_adblock
@@ -252,14 +252,15 @@ body:
     attributes:
       label: Screenshots
       description: |
-        If applicable add screenshots explaining your problem.
+        If applicable, add screenshots explaining your problem.
         You can drag and drop images or paste them from clipboard.
         Use `<details> </details>` tag to hide screenshots under the spoiler.
-      placeholder: If applicable add screenshots explaining your problem.
+      placeholder: If applicable, add screenshots explaining your problem.
       value: |
           <details><summary>Screenshot 1</summary>
           <!-- Paste screenshot below. -->
           
+
 
           </details>
     validations:
@@ -269,7 +270,7 @@ body:
     id: additional
     attributes:
       label: Additional Information
-      placeholder: Add any other context about the problem here, custom filters, etc.
+      placeholder: Add any other context about the problem here.
     validations:
       required: false
 
