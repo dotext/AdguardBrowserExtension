@@ -50,7 +50,7 @@ body:
       value: |
         Select enabled filters if they are related to the application bug.
         If the issue is related to the filtering (missed ads, cookie, etc.)
-        use the [Web Reporting Tool](https://kb.adguard.com/technical-support/reporting-tool) please.
+        please use the [Web Reporting Tool](https://kb.adguard.com/technical-support/reporting-tool).
 
   - type: dropdown
     id: filters_adblock
@@ -221,6 +221,7 @@ body:
           <!-- Paste screenshot below. -->
 
 
+
           </details>
     validations:
       required: false
@@ -229,6 +230,12 @@ body:
     id: additional
     attributes:
       label: Additional Information
-      placeholder: Add any other context about the problem here, custom filters, etc.
+      placeholder: Add any other context about the problem here.
     validations:
       required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        Upvote [important issues](https://github.com/AdguardTeam/AdguardBrowserExtension/issues?q=is%3Aissue+is%3Aopen+sort%3Areactions-%2B1-desc+) with a :+1:
