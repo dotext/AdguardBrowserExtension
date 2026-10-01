@@ -38,7 +38,7 @@ body:
     attributes:
       label: OS version
       description: What operating system do you use, and what version are you running?
-      placeholder: For example, macOS Golden Gate 27.2 or Windows 11 25H2 (Build 26200)​​
+      placeholder: For example, macOS Golden Gate 27.2 or Windows 11 25H2 (Build 26200)
     validations:
       required: true
   - type: markdown
